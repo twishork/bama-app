@@ -14,6 +14,7 @@ The Solution
 
 By integrating the U.S. Census Bureau API, this tool provides a live dashboard of Alabama's 67 counties, ranked by Median Household Income and Total Population. It applies business logic to "flag" counties that meet a specific wealth threshold necessary for $1M+ capital campaigns.
 
+
 Technical Features
 Live Data Integration: Consumes the U.S. Census ACS 5-Year Survey API.
 
@@ -23,11 +24,16 @@ Capacity Indicators: Automatically badges counties with a Median Household Incom
 
 Mobile Responsive: Built with Tailwind CSS to ensure development officers can use the tool in the field.
 
+
 The Data Source
 API: U.S. Census Bureau ACS 5-Year Estimates
+
 Endpoint Used: /data/2022/acs/acs5
+
 Variables: * B19013_001E: Median Household Income (The primary wealth indicator)
+
 B01003_001E: Total Population (To determine the size of the "donor pool")
+
 
 How to Run This Application
 - Navigate to web browser to https://twishork.github.io/bama-app/
