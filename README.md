@@ -18,7 +18,9 @@ Technical Features
 Live Data Integration: Consumes the U.S. Census ACS 5-Year Survey API.
 
 Dynamic Filtering: Users can filter counties by a "Minimum Income" threshold to narrow down high-capacity leads.
+
 Capacity Indicators: Automatically badges counties with a Median Household Income over $75,000 as "High Capacity."
+
 Mobile Responsive: Built with Tailwind CSS to ensure development officers can use the tool in the field.
 
 The Data Source
