@@ -25,44 +25,10 @@ Mobile Responsive: Built with Tailwind CSS to ensure development officers can us
 3. The Data Source
 API: U.S. Census Bureau ACS 5-Year Estimates
 
-Endpoint Used: /data/2022/acs/acs5
+Endpoint Used: /data/2023/acs/acs5
 
 Variables: * B19013_001E: Median Household Income (The primary wealth indicator)
 
 B01003_001E: Total Population (To determine the size of the "donor pool")
 
-4. How to Run This Application
-Prerequisites
 
-Node.js (Version 16 or higher recommended)
-
-A modern web browser
-
-Installation
-
-Clone the repository:
-
-Bash
-git clone https://github.com/yourusername/alabama-prospector.git
-Navigate to the project directory:
-
-Bash
-cd alabama-prospector
-Install dependencies:
-
-Bash
-npm install
-Start the development server:
-
-Bash
-npm start
-View in browser: Open http://localhost:3000
-
-5. Strategy for Million-Dollar Initiatives
-This application serves as the "Top of the Funnel" for a 15-minute presentation.
-
-Identify: Use the tool to find the top 5 wealthiest counties (e.g., Shelby, Madison).
-
-Target: Filter for population centers with high income to find "dense" wealth.
-
-Execute: Use these insights to allocate a $1,000,000 fundraising budget effectively across the state.
